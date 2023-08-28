@@ -1,0 +1,148 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-204-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,3,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV",
+            "selector": "div#slick-node-landing-page-jumbo-custom-10026-1-slider > div.slick-list > div.slick-track > div#slick-slide01",
+            "boundingRect": {
+              "top": 272,
+              "bottom": 728,
+              "left": -26,
+              "right": 1324,
+              "width": 1350,
+              "height": 457
+            },
+            "snippet": "<div class=\"slick-slide\" data-slick-index=\"1\" aria-hidden=\"true\" style=\"width: 1350px;\" role=\"tabpanel\" id=\"slick-slide01\" aria-describedby=\"slick-slide-control01\">",
+            "nodeLabel": "Reg 85\nHow Does Regulation 85 Impact Agriculture?\nRead more about Reg 85",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-107-A",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,3,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,A",
+                  "selector": "div.paragraph__column > div.container > div.jumbo_paragraph_body > a",
+                  "boundingRect": {
+                    "top": 692,
+                    "bottom": 711,
+                    "left": 16,
+                    "right": 190,
+                    "width": 174,
+                    "height": 19
+                  },
+                  "snippet": "<a href=\"https://ag.colorado.gov/conservation/agricultural-water-quality\" tabindex=\"0\">",
+                  "nodeLabel": "Read more about Reg 85"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-205-H3",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h3",
+            "boundingRect": {
+              "top": 801,
+              "bottom": 853,
+              "left": 24,
+              "right": 1326,
+              "width": 1302,
+              "height": 53
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Conservation Services",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-206-H6",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,7,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H6",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h6",
+            "boundingRect": {
+              "top": 2135,
+              "bottom": 2169,
+              "left": 464,
+              "right": 871,
+              "width": 407,
+              "height": 33
+            },
+            "snippet": "<h6>",
+            "nodeLabel": "Follow us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
