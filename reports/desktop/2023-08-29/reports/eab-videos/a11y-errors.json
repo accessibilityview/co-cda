@@ -1,0 +1,165 @@
+[
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "37-166-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,P,0,IFRAME",
+            "selector": "div.paragraph__column > div.field > p > iframe",
+            "boundingRect": {
+              "top": 453,
+              "bottom": 1053,
+              "left": 39,
+              "right": 651,
+              "width": 612,
+              "height": 600
+            },
+            "snippet": "<iframe allowfullscreen=\"\" frameborder=\"0\" height=\"600\" src=\"//www.youtube.com/embed/hpd6jRrw4Ns\" width=\"100%\">",
+            "nodeLabel": "div.paragraph__column > div.field > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "37-170-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,P,0,IFRAME",
+            "selector": "div.paragraph__column > div.field > p > iframe",
+            "boundingRect": {
+              "top": 453,
+              "bottom": 1053,
+              "left": 699,
+              "right": 1311,
+              "width": 612,
+              "height": 600
+            },
+            "snippet": "<iframe allowfullscreen=\"\" frameborder=\"0\" height=\"600\" src=\"//www.youtube.com/embed/9G-0eG632OI\" width=\"100%\">",
+            "nodeLabel": "div.paragraph__column > div.field > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "37-171-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,P,0,IFRAME",
+            "selector": "div.paragraph__column > div.field > p > iframe",
+            "boundingRect": {
+              "top": 1100,
+              "bottom": 1700,
+              "left": 39,
+              "right": 651,
+              "width": 612,
+              "height": 600
+            },
+            "snippet": "<iframe allowfullscreen=\"\" frameborder=\"0\" height=\"600\" src=\"//www.youtube.com/embed/caOw3Be0w_8\" width=\"100%\">",
+            "nodeLabel": "div.paragraph__column > div.field > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "37-172-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,P,0,IFRAME",
+            "selector": "div.paragraph__column > div.field > p > iframe",
+            "boundingRect": {
+              "top": 1100,
+              "bottom": 1700,
+              "left": 699,
+              "right": 1311,
+              "width": 612,
+              "height": 600
+            },
+            "snippet": "<iframe allowfullscreen=\"\" frameborder=\"0\" height=\"600\" src=\"//www.youtube.com/embed/FC1v7HjXNDA\" width=\"100%\">",
+            "nodeLabel": "div.paragraph__column > div.field > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "37-173-H6",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H6",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h6",
+            "boundingRect": {
+              "top": 2100,
+              "bottom": 2133,
+              "left": 464,
+              "right": 871,
+              "width": 407,
+              "height": 33
+            },
+            "snippet": "<h6>",
+            "nodeLabel": "Follow us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

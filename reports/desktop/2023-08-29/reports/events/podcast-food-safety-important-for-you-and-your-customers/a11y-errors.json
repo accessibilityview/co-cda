@@ -1,0 +1,338 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-197-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,1,TBODY,0,TR,3,TD,0,A,0,DIV,1,SPAN",
+            "selector": "td.fc-event-container > a.fc-day-grid-event > div.fc-content > span.fc-title",
+            "boundingRect": {
+              "top": 668,
+              "bottom": 684,
+              "left": 1223,
+              "right": 1559,
+              "width": 335,
+              "height": 16
+            },
+            "snippet": "<span class=\"fc-title\">",
+            "nodeLabel": "2023 Aquatic & Semi-Aquatic Invasives Control Training",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.03 (foreground color: #ffffff, background color: #fbfbfb, font size: 10.2pt (13.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-198-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV",
+                  "selector": "div.row > div.wrap > aside.col-sm-3 > div.region",
+                  "boundingRect": {
+                    "top": 507,
+                    "bottom": 900,
+                    "left": 1028,
+                    "right": 1335,
+                    "width": 308,
+                    "height": 392
+                  },
+                  "snippet": "<div class=\"region sidebar-nav region-sidebar-second\">",
+                  "nodeLabel": "August 2023\nSun\tMon\tTue\tWed\tThu\tFri\tSat\n\n\n\t\t\t\t\t\t\n\t\t\n1\n\t\n2\n\t\n3\n\t\n4\n\t\n5\n\n\t\t\t\n12:3…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-199-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,DIV,1,DIV,1,DIV,0,TABLE,1,TBODY,0,TR,2,TD,0,A,0,DIV,0,SPAN",
+            "selector": "td.fc-event-container > a.fc-day-grid-event > div.fc-content > span.fc-title",
+            "boundingRect": {
+              "top": 733,
+              "bottom": 749,
+              "left": 1117,
+              "right": 1666,
+              "width": 549,
+              "height": 16
+            },
+            "snippet": "<span class=\"fc-title\">",
+            "nodeLabel": "PODCAST: Colorado Proud: Social Media Platforms: How to Use Them for Maximum Re…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.03 (foreground color: #ffffff, background color: #fbfbfb, font size: 10.2pt (13.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-198-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV",
+                  "selector": "div.row > div.wrap > aside.col-sm-3 > div.region",
+                  "boundingRect": {
+                    "top": 507,
+                    "bottom": 900,
+                    "left": 1028,
+                    "right": 1335,
+                    "width": 308,
+                    "height": 392
+                  },
+                  "snippet": "<div class=\"region sidebar-nav region-sidebar-second\">",
+                  "nodeLabel": "August 2023\nSun\tMon\tTue\tWed\tThu\tFri\tSat\n\n\n\t\t\t\t\t\t\n\t\t\n1\n\t\n2\n\t\n3\n\t\n4\n\t\n5\n\n\t\t\t\n12:3…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-200-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,DIV,1,DIV,1,DIV,0,TABLE,1,TBODY,1,TR,0,TD,0,A,0,DIV,1,SPAN",
+            "selector": "td.fc-event-container > a.fc-day-grid-event > div.fc-content > span.fc-title",
+            "boundingRect": {
+              "top": 755,
+              "bottom": 771,
+              "left": 1181,
+              "right": 1537,
+              "width": 356,
+              "height": 16
+            },
+            "snippet": "<span class=\"fc-title\">",
+            "nodeLabel": "Colorado State Conservation Board Subcommittee Meeting",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.03 (foreground color: #ffffff, background color: #fbfbfb, font size: 10.2pt (13.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-198-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV",
+                  "selector": "div.row > div.wrap > aside.col-sm-3 > div.region",
+                  "boundingRect": {
+                    "top": 507,
+                    "bottom": 900,
+                    "left": 1028,
+                    "right": 1335,
+                    "width": 308,
+                    "height": 392
+                  },
+                  "snippet": "<div class=\"region sidebar-nav region-sidebar-second\">",
+                  "nodeLabel": "August 2023\nSun\tMon\tTue\tWed\tThu\tFri\tSat\n\n\n\t\t\t\t\t\t\n\t\t\n1\n\t\n2\n\t\n3\n\t\n4\n\t\n5\n\n\t\t\t\n12:3…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-201-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,DIV,2,DIV,1,DIV,0,TABLE,1,TBODY,0,TR,1,TD,0,A,0,DIV,1,SPAN",
+            "selector": "td.fc-event-container > a.fc-day-grid-event > div.fc-content > span.fc-title",
+            "boundingRect": {
+              "top": 809,
+              "bottom": 825,
+              "left": 1139,
+              "right": 1709,
+              "width": 570,
+              "height": 16
+            },
+            "snippet": "<span class=\"fc-title\">",
+            "nodeLabel": "Colorado Proud Webinar: Market Data: How to Effectively Use Data in Your Produc…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.03 (foreground color: #ffffff, background color: #fbfbfb, font size: 10.2pt (13.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-198-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV",
+                  "selector": "div.row > div.wrap > aside.col-sm-3 > div.region",
+                  "boundingRect": {
+                    "top": 507,
+                    "bottom": 900,
+                    "left": 1028,
+                    "right": 1335,
+                    "width": 308,
+                    "height": 392
+                  },
+                  "snippet": "<div class=\"region sidebar-nav region-sidebar-second\">",
+                  "nodeLabel": "August 2023\nSun\tMon\tTue\tWed\tThu\tFri\tSat\n\n\n\t\t\t\t\t\t\n\t\t\n1\n\t\n2\n\t\n3\n\t\n4\n\t\n5\n\n\t\t\t\n12:3…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-202-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,DIV,3,DIV,1,DIV,0,TABLE,1,TBODY,0,TR,4,TD,0,A,0,DIV,1,SPAN",
+            "selector": "td.fc-event-container > a.fc-day-grid-event > div.fc-content > span.fc-title",
+            "boundingRect": {
+              "top": 873,
+              "bottom": 889,
+              "left": 1265,
+              "right": 1446,
+              "width": 181,
+              "height": 16
+            },
+            "snippet": "<span class=\"fc-title\">",
+            "nodeLabel": "Colorado Wine Board meeting",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.03 (foreground color: #ffffff, background color: #fbfbfb, font size: 10.2pt (13.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-198-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV",
+                  "selector": "div.row > div.wrap > aside.col-sm-3 > div.region",
+                  "boundingRect": {
+                    "top": 507,
+                    "bottom": 900,
+                    "left": 1028,
+                    "right": 1335,
+                    "width": 308,
+                    "height": 392
+                  },
+                  "snippet": "<div class=\"region sidebar-nav region-sidebar-second\">",
+                  "nodeLabel": "August 2023\nSun\tMon\tTue\tWed\tThu\tFri\tSat\n\n\n\t\t\t\t\t\t\n\t\t\n1\n\t\n2\n\t\n3\n\t\n4\n\t\n5\n\n\t\t\t\n12:3…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-203-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,DIV,4,DIV,1,DIV,0,TABLE,1,TBODY,0,TR,2,TD,0,A,0,DIV,1,SPAN",
+            "selector": "td.fc-event-container > a.fc-day-grid-event > div.fc-content > span.fc-title",
+            "boundingRect": {
+              "top": 937,
+              "bottom": 953,
+              "left": 1182,
+              "right": 1503,
+              "width": 322,
+              "height": 16
+            },
+            "snippet": "<span class=\"fc-title\">",
+            "nodeLabel": "Pesticides Program Stakeholder Engagement Meeting",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.03 (foreground color: #ffffff, background color: #fbfbfb, font size: 10.2pt (13.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-198-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,ASIDE,0,DIV",
+                  "selector": "div.row > div.wrap > aside.col-sm-3 > div.region",
+                  "boundingRect": {
+                    "top": 507,
+                    "bottom": 900,
+                    "left": 1028,
+                    "right": 1335,
+                    "width": 308,
+                    "height": 392
+                  },
+                  "snippet": "<div class=\"region sidebar-nav region-sidebar-second\">",
+                  "nodeLabel": "August 2023\nSun\tMon\tTue\tWed\tThu\tFri\tSat\n\n\n\t\t\t\t\t\t\n\t\t\n1\n\t\n2\n\t\n3\n\t\n4\n\t\n5\n\n\t\t\t\n12:3…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-204-H6",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H6",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h6",
+            "boundingRect": {
+              "top": 1239,
+              "bottom": 1272,
+              "left": 464,
+              "right": 871,
+              "width": 407,
+              "height": 33
+            },
+            "snippet": "<h6>",
+            "nodeLabel": "Follow us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

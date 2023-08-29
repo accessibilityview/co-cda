@@ -1,0 +1,202 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-296-H3",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,H3",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h3",
+            "boundingRect": {
+              "top": 1155,
+              "bottom": 1214,
+              "left": 39,
+              "right": 373,
+              "width": 334,
+              "height": 59
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Why should I use electronic CVIs?",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-297-H4",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h4",
+            "boundingRect": {
+              "top": 5571,
+              "bottom": 5621,
+              "left": 66,
+              "right": 347,
+              "width": 281,
+              "height": 50
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Veterinary Services Process Streamlining",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-298-H6",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H6",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h6",
+            "boundingRect": {
+              "top": 10897,
+              "bottom": 10914,
+              "left": 24,
+              "right": 373,
+              "width": 349,
+              "height": 17
+            },
+            "snippet": "<h6>",
+            "nodeLabel": "Follow us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-299-UL",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,6,UL",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > ul",
+            "boundingRect": {
+              "top": 4710,
+              "bottom": 5262,
+              "left": 64,
+              "right": 348,
+              "width": 284,
+              "height": 552
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Downloading VET-CVI & Creating Account\nPage 1- General Details\nPage 2- Origin &…",
+            "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "19-300-LI",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,6,UL,0,LI",
+                  "selector": "div.paragraph__column > div.field > ul > li",
+                  "boundingRect": {
+                    "top": 4710,
+                    "bottom": 4758,
+                    "left": 104,
+                    "right": 348,
+                    "width": 244,
+                    "height": 48
+                  },
+                  "snippet": "<li dir=\"ltr\" role=\"presentation\">",
+                  "nodeLabel": "Downloading VET-CVI & Creating Account"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "19-301-LI",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,6,UL,1,LI",
+                  "selector": "div.paragraph__column > div.field > ul > li",
+                  "boundingRect": {
+                    "top": 4758,
+                    "bottom": 4782,
+                    "left": 104,
+                    "right": 348,
+                    "width": 244,
+                    "height": 24
+                  },
+                  "snippet": "<li dir=\"ltr\" role=\"presentation\">",
+                  "nodeLabel": "Page 1- General Details"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "19-302-LI",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,6,UL,2,LI",
+                  "selector": "div.paragraph__column > div.field > ul > li",
+                  "boundingRect": {
+                    "top": 4782,
+                    "bottom": 4830,
+                    "left": 104,
+                    "right": 348,
+                    "width": 244,
+                    "height": 48
+                  },
+                  "snippet": "<li dir=\"ltr\" role=\"presentation\">",
+                  "nodeLabel": "Page 2- Origin & Consignor Information"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

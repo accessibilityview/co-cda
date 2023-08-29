@@ -1,0 +1,311 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "29-351-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,3,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV",
+            "selector": "section#block-contentfield > div#slick-node-landing-page-jumbo-custom-9999-2 > div.slick__slide > div.jumbo_image",
+            "boundingRect": {
+              "top": 396,
+              "bottom": 492,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 96
+            },
+            "snippet": "<div class=\"jumbo_image\" style=\"background-image: url(&quot;/sites/ag/files/styles/flexslider_full/public/FirstP…&quot;);\" aria-label=\"tractors working in field\">",
+            "nodeLabel": "tractors working in field",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "29-352-MAIN",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,MAIN",
+            "selector": "body.path-frontpage > div.site-wrapper > div.dialog-off-canvas-main-canvas > main#main-content",
+            "boundingRect": {
+              "top": 492,
+              "bottom": 9673,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 9181
+            },
+            "snippet": "<main id=\"main-content\" tabindex=\"-1\" class=\"js-quickedit-main-content\">",
+            "nodeLabel": "Home\n\nPhoto Credit: Luke Trautwein\nEnter 'Best In Show' Photography Contest Now…",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: main-content"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "29-213-A",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,SECTION,0,P,0,A",
+                  "selector": "div.field > section > p.text-align-center > a#main-content",
+                  "boundingRect": {
+                    "top": 1277,
+                    "bottom": 1277,
+                    "left": 206,
+                    "right": 206,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"main-content\">",
+                  "nodeLabel": "div.field > section > p.text-align-center > a#main-content"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "29-353-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,9,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.paragraph__column > div.field > div.field--item > iframe",
+            "boundingRect": {
+              "top": 8180,
+              "bottom": 8395,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 215
+            },
+            "snippet": "<iframe src=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.…\" width=\"340\" height=\"270\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\">",
+            "nodeLabel": "div.paragraph__column > div.field > div.field--item > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "29-354-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,9,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,IFRAME",
+            "selector": "div.paragraph__column > div.field > div.field--item > iframe",
+            "boundingRect": {
+              "top": 9007,
+              "bottom": 9222,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 215
+            },
+            "snippet": "<iframe src=\"https://calendar.google.com/calendar/embed?height=450&amp;wkst=1&amp;bgcolor=%23ff…\" style=\"border:solid 1px #777\" width=\"100%\" height=\"450\" frameborder=\"0\" scrolling=\"yes\">",
+            "nodeLabel": "div.paragraph__column > div.field > div.field--item > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "29-355-H6",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H6",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h6",
+            "boundingRect": {
+              "top": 3110,
+              "bottom": 3127,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 17
+            },
+            "snippet": "<h6>",
+            "nodeLabel": "Vision",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "29-356-H6",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,5,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H6",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h6",
+            "boundingRect": {
+              "top": 4622,
+              "bottom": 4639,
+              "left": 49,
+              "right": 363,
+              "width": 314,
+              "height": 17
+            },
+            "snippet": "<h6>",
+            "nodeLabel": "Most Requested Information",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "29-357-H5",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,8,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H5",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h5.text-align-center",
+            "boundingRect": {
+              "top": 7258,
+              "bottom": 7280,
+              "left": 39,
+              "right": 373,
+              "width": 334,
+              "height": 22
+            },
+            "snippet": "<h5 class=\"text-align-center\">",
+            "nodeLabel": " ",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "29-358-H6",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,7,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H6",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h6",
+            "boundingRect": {
+              "top": 9921,
+              "bottom": 9938,
+              "left": 24,
+              "right": 373,
+              "width": 349,
+              "height": 17
+            },
+            "snippet": "<h6>",
+            "nodeLabel": "Follow us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
